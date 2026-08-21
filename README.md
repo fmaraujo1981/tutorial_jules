@@ -1,6 +1,19 @@
 # 🚀 Conheça o Google Jules: Seu Agente de Engenharia de Software IA
 
-Bem-vindo a este repositório! Este projeto é uma demonstração prática e interativa do que o **Google Jules** é capaz de fazer. O mais incrível? **Este repositório inteiro (código, interface e documentação) foi construído autonomamente pelo próprio Jules** a partir de uma instrução simples!
+Bem-vindo a este repositório! Este projeto é uma demonstração prática, educativa e interativa do que o **Google Jules** é capaz de fazer. O mais incrível? **Este repositório inteiro (código, interface, guia para estudantes e documentação) foi construído autonomamente pelo próprio Jules** a partir de uma instrução simples!
+
+---
+
+## 🌐 Como Acessar e Publicar no GitHub Pages
+
+Este projeto está pronto para ser hospedado no **GitHub Pages** com deploy 100% automatizado através de **GitHub Actions** (`.github/workflows/deploy.yml`).
+
+### Passo a Passo para Ativar o GitHub Pages no seu Repositório:
+1. Faça o envio (push) deste repositório para sua conta no GitHub.
+2. No GitHub, vá até a aba **Settings** (Configurações) no menu superior do seu repositório.
+3. No menu lateral esquerdo, clique em **Pages**.
+4. Em **Build and deployment** -> **Source**, altere de *Deploy from a branch* para **GitHub Actions**.
+5. Pronto! Em instantes seu site estará publicado em `https://seu-usuario.github.io/nome-do-repositorio/`.
 
 ---
 
@@ -18,9 +31,25 @@ Ao contrário de assistentes de chat comuns que apenas sugerem pequenos trechos 
 
 ---
 
-## ⚡ O que o Jules consegue fazer por você?
+## 🎓 Guia do Estudante: Como Usar o Jules para Aprender a Programar
 
-Mesmo que você não entenda nada de programação, veja como o Jules simplifica a criação de tecnologia:
+Se você é estudante, iniciante ou está fazendo transição de carreira para tecnologia, o Jules é uma das melhores ferramentas para acelerar seu aprendizado:
+
+1. **Explicação de Conceitos Complexos:**
+   > *"Estou estudando APIs REST em Node.js. Pode me dar uma analogia simples e criar um exemplo prático?"*
+
+2. **Diagnóstico de Erros (Debugging):**
+   > *"Meu código em Python tá dando `TypeError`. Pode me mostrar o erro na linha 12 e explicar em português o porquê aconteceu?"*
+
+3. **Aprender Boas Práticas:**
+   > *"Esse meu código HTML/CSS funciona, mas como posso refatorá-lo para ficar profissional e acessível (a11y)?"*
+
+4. **Criação de Testes:**
+   > *"Crie testes unitários para a minha função de cálculo de desconto e explique como o framework de testes funciona."*
+
+---
+
+## ⚡ O que o Jules consegue fazer por você?
 
 | Recurso | O que significa na prática? |
 | :--- | :--- |
@@ -28,25 +57,24 @@ Mesmo que você não entenda nada de programação, veja como o Jules simplifica
 | 🏗️ **Criação de Recursos do Zero** | Você descreve uma nova funcionalidade em português simples ("Crie uma página de perfil para usuários com avatar") e ele constrói tudo. |
 | 📚 **Geração de Documentação** | O Jules lê projetos complexos e cria manuais, tutoriais e diagramas claros e organizados sem você ter que digitar nada. |
 | 🛡️ **Revisão de Código e Segurança** | Ele analisa seu projeto em busca de falhas de segurança, gargalos de desempenho e sugere melhorias automáticas. |
+| 🎓 **Modo Tutor para Estudantes** | Explica trechos de código, ensina algoritmos do zero e tira dúvidas didáticas. |
 
 ---
 
 ## 🛠️ Como este projeto foi criado?
 
-1. **A Instrução:** Um usuário solicitou ao Jules criar uma página web interativa de demonstração (`index.html`) e um guia explicativo (`README.md`).
-2. **A Exploração Autônoma:** O Jules analisou o repositório inicial, identificou que estava limpo e planejou a estrutura dos arquivos necessários.
-3. **A Construção:** O Jules escreveu a documentação (`README.md`) e criou a aplicação web em arquivo único (`index.html`) utilizando **Tailwind CSS** e **Lucide Icons** para um visual moderno e responsivo.
-4. **O Simulador Interativo:** Adicionou um "Simulador de Comandos do Jules" dentro da página para que qualquer pessoa possa testar promps e ver a magia acontecer em tempo real!
+1. **A Instrução:** O usuário solicitou ao Jules criar uma página web interativa de demonstração (`index.html`), com guias para iniciantes, publicar no GitHub Pages e documentar tudo no `README.md`.
+2. **A Exploração Autônoma:** O Jules analisou a estrutura do repositório e elaborou o plano de execução.
+3. **A Construção & Deploy Workflow:** O Jules desenvolveu a aplicação web (`index.html`), configurou o workflow de deploy automático (`.github/workflows/deploy.yml`) e refinou a documentação (`README.md`).
+4. **O Simulador Interativo:** Adicionou um "Simulador de Comandos do Jules" dentro da página incluindo predefinições para estudantes e iniciantes.
 
 ---
 
-## 🖥️ Como visualizar a demonstração?
-
-Para ver a página interativa em ação:
+## 🖥️ Como visualizar localmente?
 
 1. Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Google Chrome, Edge, Safari, Firefox).
-2. **Ou** utilize uma extensão como Live Server no VS Code / servidor local simples (`npx serve .` ou `python3 -m http.server 8000`).
+2. **Ou** utilize uma extensão como Live Server no VS Code ou servidor local (`npx serve .` ou `python3 -m http.server 8000`).
 
 ---
 
-✨ *Desenvolvido 100% autonomamente pelo Google Jules.*
+✨ *Desenvolvido e atualizado 100% autonomamente pelo Google Jules.*
